@@ -1,0 +1,7 @@
+Id,FirstName,LastName,Balance
+0,Kerem,Durabay,5000
+1,Ahmet,Yýldýz,5432
+2,Mehmet,Yýldýz,7431
+3,Ali,Güler,3768
+4,Emre,Aslan,8945
+5,Ali,Aslan,8945

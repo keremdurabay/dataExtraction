@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{6AFC4AE9-E356-4B02-B249-02DBEAABAF15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dataExtraction.Domain", "dataExtraction.Domain\dataExtraction.Domain.csproj", "{6028B0B6-8E02-49C7-9896-AC6A58A879F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dataExtraction.Application", "dataExtraction.Application\dataExtraction.Application.csproj", "{98F544B4-5F12-45D0-AE43-8A27ACAEE12D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{0CB7F665-217B-4838-A4C5-324EC78E5003}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dataExtraction.Infrastructure", "dataExtraction.Infrastructure\dataExtraction.Infrastructure.csproj", "{A8E8F214-ABEF-4317-95B1-2E903A44894D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dataExtraction.Presistence", "dataExtraction.Presistence\dataExtraction.Presistence.csproj", "{079D30B8-84AD-4995-9C24-357077961C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{FF9C3ED1-5CF4-485C-B6D5-E0B69CFAE7CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dataExtraction.Console", "dataExtraction.Console\dataExtraction.Console.csproj", "{791D1740-5C05-472C-9627-E9901476B1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6028B0B6-8E02-49C7-9896-AC6A58A879F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6028B0B6-8E02-49C7-9896-AC6A58A879F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6028B0B6-8E02-49C7-9896-AC6A58A879F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6028B0B6-8E02-49C7-9896-AC6A58A879F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F544B4-5F12-45D0-AE43-8A27ACAEE12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F544B4-5F12-45D0-AE43-8A27ACAEE12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F544B4-5F12-45D0-AE43-8A27ACAEE12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F544B4-5F12-45D0-AE43-8A27ACAEE12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E8F214-ABEF-4317-95B1-2E903A44894D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E8F214-ABEF-4317-95B1-2E903A44894D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E8F214-ABEF-4317-95B1-2E903A44894D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E8F214-ABEF-4317-95B1-2E903A44894D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079D30B8-84AD-4995-9C24-357077961C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079D30B8-84AD-4995-9C24-357077961C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079D30B8-84AD-4995-9C24-357077961C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079D30B8-84AD-4995-9C24-357077961C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791D1740-5C05-472C-9627-E9901476B1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791D1740-5C05-472C-9627-E9901476B1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791D1740-5C05-472C-9627-E9901476B1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791D1740-5C05-472C-9627-E9901476B1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6028B0B6-8E02-49C7-9896-AC6A58A879F1} = {6AFC4AE9-E356-4B02-B249-02DBEAABAF15}
+		{98F544B4-5F12-45D0-AE43-8A27ACAEE12D} = {6AFC4AE9-E356-4B02-B249-02DBEAABAF15}
+		{A8E8F214-ABEF-4317-95B1-2E903A44894D} = {0CB7F665-217B-4838-A4C5-324EC78E5003}
+		{079D30B8-84AD-4995-9C24-357077961C83} = {0CB7F665-217B-4838-A4C5-324EC78E5003}
+		{791D1740-5C05-472C-9627-E9901476B1BB} = {FF9C3ED1-5CF4-485C-B6D5-E0B69CFAE7CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C361A35E-2C53-45A7-8F63-AAC1D6749C3D}
+	EndGlobalSection
+EndGlobal
